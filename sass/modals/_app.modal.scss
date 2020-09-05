@@ -1,0 +1,26 @@
+#app-modal{
+
+  .modal-container{
+    grid-template-rows: 1fr 2fr;
+  }
+
+  .content{
+    .app-header{
+      color: $gold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .app-desc{
+      color: $white;
+      text-transform: capitalize;
+    }
+  }
+  .QR-code{
+    width: 50%;
+    height: 100%;
+    border-radius: 15px;
+    background: $white;
+    margin-bottom: 25px;
+  }
+}

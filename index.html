@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>EnactusNCA || Homepage</title>
+    <link href="sass/main.css" rel="stylesheet">
+</head>
+<body>
+
+
+<!-- NavBar Start -->
+<nav id="navbar">
+    <div class="container">
+        <a class="logo-container" href="#hero">
+            <img alt="Enacuts Logo" class="logo" src="asset/img/enactus-logo.png">
+        </a>
+        <div class="menu" id="menu-icon">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+</nav>
+<nav id="collapse-navbar">
+    <div class="container">
+        <ul class="navlink">
+            <li><a class="navitem" href="#hero">Home</a></li>
+            <li><a class="navitem" href="#about">About</a></li>
+            <li><a class="navitem" href="#board">Our Board</a></li>
+            <li><a class="navitem" href="#Event">Events</a></li>
+            <li><a class="navitem" href="#timeline">Timeline</a></li>
+            <li><a class="navitem" href="#contact">Contact us</a></li>
+        </ul>
+    </div>
+</nav>
+<!-- NavBar End -->
+
+<!-- Hero main Start -->
+<main id="hero">
+    <div class="container">
+        <div class="content">
+            <h2 class="hero-header">You`re Talented Somehow !</h2>
+            <p class="hero-desc">
+                Talent is a special gift that someone naturally was born with
+                it's the thing that can make you different from anyone on your own
+                way.
+            </p>
+            <div class="cta">
+                <a class="modal-trigger join" data-trigger="join-modal" href="#join-modal">Join US</a>
+                <a class="modal-trigger app" data-trigger="app-modal" href="#app-modal">Download Our App</a>
+            </div>
+        </div>
+    </div>
+</main>
+<!-- Hero main End -->
+
+
+<!-- Modals Start -->
+<!-- Join Modal start -->
+<div class="modal" id="join-modal">
+    <div class="modal-container">
+        <div class="content">
+            <h2 class="join-header">Recruitment</h2>
+            <p class="join-desc">Join our family and become a better version of your self.</p>
+        </div>
+        <form action="" id="join-form">
+            <div class="input-field">
+                <label for="first_name">First Name:</label>
+                <input id="first_name" name="first_name" type="text">
+            </div>
+            <div class="input-field">
+                <label for="last_name">Last Name:</label>
+                <input id="last_name" name="last_name" type="text">
+            </div>
+            <div class="input-field">
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="email">
+            </div>
+            <div class="input-field">
+                <label for="collage">Collage:</label>
+                <select id="collage" name="collage">
+                    <option value="computer-science">Computer Science</option>
+                    <option value="engineering">Engineering</option>
+                    <option value="information-system">Information System</option>
+                    <option value="applied-arts">Applied Arts</option>
+                    <option value="commerce-and-business-administrator">Commerce and Business Administrator</option>
+                </select>
+            </div>
+            <div class="input-field">
+                <label for="first-preference">First Preference</label>
+                <select id="first-preference" name="collage">
+                    <option class="select-option" value="multimedia">Multimedia</option>
+                    <option class="select-option" value="HR">Human Resources (HR)</option>
+                    <option class="select-option" value="ER">Employee Relations (ER)</option>
+                    <option class="select-option" value="presentation">Presentation</option>
+                    <option class="select-option" value="Project">Project</option>
+                </select>
+            </div>
+            <div class="input-field">
+                <label for="second-preference">Second Preference</label>
+                <select id="second-preference" name="collage">
+                    <option class="select-option" value="multimedia">Multimedia</option>
+                    <option class="select-option" value="HR">Human Resources (HR)</option>
+                    <option class="select-option" value="ER">Employee Relations (ER)</option>
+                    <option class="select-option" value="presentation">Presentation</option>
+                    <option class="select-option" value="Project">Project</option>
+                </select>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- Join Modal End -->
+<!-- app Modal start -->
+<div class="modal" id="app-modal">
+    <div class="modal-container">
+        <div class="content">
+            <h2 class="app-header">Download Our App</h2>
+            <p class="app-desc">
+                Download our app from google play & app store.
+            </p>
+        </div>
+        <div class="QR-code">
+
+        </div>
+    </div>
+</div>
+<!-- app Modal End -->
+
+<!-- Modals End -->
+
+<script src="js/main.js"></script>
+</body>
+</html>
