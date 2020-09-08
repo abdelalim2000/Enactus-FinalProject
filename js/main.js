@@ -1,13 +1,13 @@
 /**
  * NavBar Control start
  * */
-const navBar = document.getElementById('navbar');
+const navbar = document.getElementById('navbar');
 const menu = document.querySelector('.menu');
 const collapseNavbar = document.getElementById('collapse-navbar');
 const navItem = document.querySelectorAll('.navitem');
 
-window.addEventListener('scroll', function () {
-    navBar.classList.toggle('scrolled', window.screenY >= 70)
+window.addEventListener("scroll", function () {
+    navbar.classList.toggle('scrolled', window.scrollY >= 70)
 });
 
 menu.addEventListener('click', function () {
@@ -74,6 +74,19 @@ boardModal.addEventListener('click', function (e) {
 });
 /**
  * Board Modal End
+ * */
+
+/**
+ * Event Modal Start
+ * */
+const eventModal = document.getElementById('event-modal');
+eventModal.addEventListener('click', function (e) {
+    if (e.target.classList.contains('modal')) {
+        eventModal.classList.remove('open')
+    }
+});
+/**
+ * Event Modal End
  * */
 
 /**
