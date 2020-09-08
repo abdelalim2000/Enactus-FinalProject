@@ -1,7 +1,7 @@
 #hero {
   width: 100vw;
   height: 100vh;
-  background: radial-gradient(circle, rgba(0, 0, 0, .8), rgba(0, 26, 48, .8)), url("../asset/img/hero-photo.jpg") no-repeat;
+  background: radial-gradient(circle, rgba(0, 0, 0, .8) 40%, rgba(0, 26, 48, .8) 100%), url("../asset/img/hero-photo.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -20,14 +20,13 @@
     align-items: center;
     flex-direction: column;
 
-    @include tablet{
+    @include tablet {
       width: 80%;
     }
 
-    @include mobile{
+    @include mobile {
       width: 100%;
     }
-
 
 
     .hero-header {
@@ -49,8 +48,9 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
+      margin-top: $mb;
 
-      @include mobile{
+      @include mobile {
         flex-direction: column;
         justify-content: center;
       }
@@ -65,13 +65,14 @@
       text-transform: uppercase;
       transition: all .3s ease-out;
 
-      @include mobile{
+      @include mobile {
         margin-bottom: $mb;
       }
 
-      &:hover{
-        border: 2px solid darken($gold, 3);
-        transform: scale(1.1);
+      &:hover {
+        border: 1px solid darken($gold, 3);
+        background: $blue;
+        color: $gold;
       }
     }
 
@@ -83,9 +84,10 @@
       text-transform: uppercase;
       transition: all .3s ease-out;
 
-      &:hover{
-        border: 2px solid darken($gold, 3);
-        transform: scale(1.1);
+      &:hover {
+        border: 1px solid darken($gold, 3);
+        background: $blue;
+        color: $gold;
       }
     }
   }

@@ -17,10 +17,20 @@
     }
   }
   .QR-code{
-    width: 50%;
-    height: 100%;
+    width: 45%;
+    height: 75%;
     border-radius: 15px;
     background: $white;
     margin-bottom: 25px;
+
+    @include tablet{
+      width: 65%;
+      height: 65%;
+    }
+
+    @include mobile{
+      width: 80%;
+      height: 50%;
+    }
   }
 }

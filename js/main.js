@@ -64,5 +64,18 @@ appModal.addEventListener('click', function (e) {
  * */
 
 /**
+ * Board Modal Start
+ * */
+const boardModal = document.getElementById('our-board')
+boardModal.addEventListener('click', function (e) {
+    if (e.target.classList.contains('modal')){
+        boardModal.classList.remove('open')
+    }
+})
+/**
+ * Board Modal End
+ * */
+
+/**
  * modal control end
  * */
