@@ -231,6 +231,7 @@ li {
 @media (max-width: 414px) {
   #hero .content .join {
     margin-bottom: 20px;
+    margin-left: 17px;
   }
 }
 #hero .content .join:hover {
