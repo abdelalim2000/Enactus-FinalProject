@@ -53,12 +53,12 @@ joinModal.addEventListener('click', function (e) {
 /**
  * app modal start
  * */
-const appModal = document.getElementById('app-modal')
+const appModal = document.getElementById('app-modal');
 appModal.addEventListener('click', function (e) {
-    if (e.target.classList.contains('modal')){
+    if (e.target.classList.contains('modal')) {
         appModal.classList.remove('open')
     }
-})
+});
 /**
  * app modal end
  * */
@@ -66,12 +66,12 @@ appModal.addEventListener('click', function (e) {
 /**
  * Board Modal Start
  * */
-const boardModal = document.getElementById('our-board')
+const boardModal = document.getElementById('our-board');
 boardModal.addEventListener('click', function (e) {
-    if (e.target.classList.contains('modal')){
+    if (e.target.classList.contains('modal')) {
         boardModal.classList.remove('open')
     }
-})
+});
 /**
  * Board Modal End
  * */

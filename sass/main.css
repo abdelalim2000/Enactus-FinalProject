@@ -333,6 +333,15 @@ li {
   margin-bottom: 20px;
 }
 
+#event .carousel {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  width: 1024px;
+  margin: 2em auto;
+}
+
 @media (max-width: 414px) {
   #join-modal .modal-container {
     overflow-y: scroll;
