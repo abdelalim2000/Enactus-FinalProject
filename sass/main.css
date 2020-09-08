@@ -231,7 +231,7 @@ li {
 @media (max-width: 414px) {
   #hero .content .join {
     margin-bottom: 20px;
-    margin-left: 17px;
+    margin: 12px auto;
   }
 }
 #hero .content .join:hover {
@@ -246,6 +246,7 @@ li {
   color: #001a30;
   text-transform: uppercase;
   transition: all 0.3s ease-out;
+  margin: 12px auto;
 }
 #hero .content .app:hover {
   border: 1px solid #ffbe0d;
