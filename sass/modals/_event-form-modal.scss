@@ -1,34 +1,56 @@
-#event-form{
+#event-form {
   .modal-container {
 
-    @include mobile{
+    @include mobile {
       overflow-y: scroll;
     }
   }
 
-  .content{
+  .content {
 
-    .form-header{
+    .form-header {
       text-transform: uppercase;
       color: $gold;
       letter-spacing: 1px;
       margin-bottom: $mb;
     }
-    .form-desc{
+
+    .form-desc {
       color: $white;
       text-transform: capitalize;
 
-      @include mobile{
+      @include mobile {
         margin-bottom: 30px;
       }
     }
   }
 
   #form-container {
+    position: relative;
     width: 95%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+
+      .form-submit {
+        text-transform: uppercase;
+        padding: 15px 30px;
+        background: $gold;
+        border: 1px solid $blue;
+        outline: none;
+        color: $blue;
+        border-radius: 7px;
+        cursor: pointer;
+        transition: all .3s linear;
+
+        &:hover{
+          background: $blue;
+          color: $gold;
+          border-color: $gold;
+        }
+      }
+
   }
 
   .input-field {
@@ -85,7 +107,8 @@
           background: $gold;
         }
       }
-      .disabled{
+
+      .disabled {
         color: gray;
       }
     }

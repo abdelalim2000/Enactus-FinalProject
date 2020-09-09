@@ -25,13 +25,14 @@
 
   .row-header {
     padding: 50px;
-    margin-bottom: 150px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 
     .content {
       text-align: center;
 
       @include tablet{
-        margin: 20px;
+        margin: 40px;
       }
       .board-header {
         text-transform: uppercase;

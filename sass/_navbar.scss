@@ -8,7 +8,7 @@
   transition: all .3s ease-in-out;
 
   &.scrolled {
-    background: $nav-blue;
+    background: rgba($nav-blue, .80);
   }
 
   .container {
@@ -22,10 +22,11 @@
 
     .logo {
       width: 100px;
+      height: 70%;
       transition: transform .3s linear;
 
       &:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
       }
     }
   }
@@ -46,7 +47,7 @@
     }
 
     .line:nth-child(2) {
-      width: 45px;
+      width: 35px;
       height: 2px;
       margin: 5px;
       background: $gold;
@@ -61,7 +62,7 @@
 
     &:hover {
       .line:nth-child(1), .line:nth-child(3) {
-        width: 45px;
+        width: 35px;
         transition: all .3s ease-out;
       }
     }
