@@ -358,30 +358,47 @@
                     <p class="conditional-payment">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, qui 35 L.E
                     </p>
+                    <button class="modal-trigger form-cta" data-trigger="event-form">Book Now</button>
+                    <!-- class disabled for button disabled -->
                 </div>
             </div>
         </div>
-        <div class="disabled" id="form-container">
-            <h3 class="form-header">Participate</h3>
+    </div>
+</section>
+<!-- Form Event -->
+<section class="modal" id="event-form">
+    <div class="modal-container">
+        <div class="content">
+            <h2 class="form-header">Join Application</h2>
             <p class="form-desc">
-                Fill The form so you could join us in a new Adventure
+                Fill The Form So You Could Join Us In A new Adventure
             </p>
-            <form action="" id="event-form">
+            <form action="" id="form-container">
                 <div class="input-field">
-                    <label for="first_name-event">First Name:</label>
-                    <input id="first_name-event" name="first_name" type="text">
+                    <label for="events">Event</label>
+                    <select id="events" name="event">
+                        <option value="Cyclicious">Cyclicious</option>
+                        <option class="disabled" value="Cyclicious" disabled>Cyclicious <span class="unactivated">(Passed)</span>
+                        </option>
+                        <option class="disabled" value="Cyclicious" disabled>Cyclicious <span class="unactivated">(Passed)</span>
+                        </option>
+                    </select>
                 </div>
                 <div class="input-field">
-                    <label for="last_name-event">Last Name:</label>
-                    <input id="last_name-event" name="last_name" type="text">
+                    <label for="event_first_name">First Name:</label>
+                    <input id="event_first_name" name="first-name" type="text">
                 </div>
                 <div class="input-field">
-                    <label for="phone-event">Phone:</label>
-                    <input id="phone-event" name="phone" type="text">
+                    <label for="event_last_name">Lastt Name:</label>
+                    <input id="event_last_name" name="last-name" type="text">
                 </div>
                 <div class="input-field">
-                    <label for="age-event">Age:</label>
-                    <input id="age-event" name="age" type="text">
+                    <label for="event_phone">Phone:</label>
+                    <input id="event_phone" name="phone" type="text">
+                </div>
+                <div class="input-field">
+                    <label for="event_age">Age:</label>
+                    <input id="event_age" name="age" type="number">
                 </div>
             </form>
         </div>

@@ -641,11 +641,20 @@ li {
   text-align: center;
 }
 
+#event-modal .modal-container {
+  overflow-y: hidden;
+}
 #event-modal #event-container {
   width: 90%;
-  margin: 3em auto;
+  height: 100%;
+  margin: 0.5em auto;
   display: grid;
   place-items: center;
+}
+@media (max-width: 414px) {
+  #event-modal #event-container {
+    overflow-y: scroll;
+  }
 }
 #event-modal #event-container .content {
   display: flex;
@@ -673,6 +682,11 @@ li {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   place-items: center;
   grid-gap: 25px;
+}
+@media (max-width: 414px) {
+  #event-modal #event-container .wrapper {
+    margin-top: 25px;
+  }
 }
 #event-modal #event-container .wrapper .left .event-body {
   color: #ffead6;
@@ -710,10 +724,192 @@ li {
   text-transform: capitalize;
   letter-spacing: 0.5px;
   text-align: center;
+  margin-bottom: 20px;
 }
-#event-modal #form-container {
+#event-modal #event-container .wrapper .right .form-cta {
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 7px;
+  outline: none;
+  background: #ffc21c;
+  cursor: pointer;
+  margin-left: 38%;
+  transition: all 0.3s linear;
+}
+@media (max-width: 414px) {
+  #event-modal #event-container .wrapper .right .form-cta {
+    margin-left: 29%;
+  }
+}
+#event-modal #event-container .wrapper .right .form-cta:hover {
+  background: #001a30;
+  color: #ffc21c;
+  border: 1px solid #ffc21c;
+}
+#event-modal #event-container .wrapper .right .disabled {
+  background: #2A519E;
+  opacity: 0.5;
+  cursor: default;
+  pointer-events: none;
+}
+
+@media (max-width: 414px) {
+  #event-form .modal-container {
+    overflow-y: scroll;
+  }
+}
+#event-form .content .form-header {
+  text-transform: uppercase;
+  color: #ffc21c;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+#event-form .content .form-desc {
+  color: #ffead6;
+  text-transform: capitalize;
+}
+@media (max-width: 414px) {
+  #event-form .content .form-desc {
+    margin-bottom: 30px;
+  }
+}
+#event-form #form-container {
+  width: 95%;
+  margin: 0 auto;
   display: grid;
-  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+#event-form .input-field {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 30px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+#event-form .input-field label {
+  color: #ffc21c;
+  text-transform: uppercase;
+  text-align: left;
+  width: 100%;
+}
+#event-form .input-field input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ffc21c;
+  background: transparent;
+  padding: 10px 5px;
+  width: 100%;
+  color: #ffead6;
+  font-size: 0.78em;
+  transition: all 0.3s ease-in;
+}
+#event-form .input-field input:focus {
+  border-bottom: 3px solid #f7b500;
+}
+#event-form .input-field select {
+  width: 80%;
+  background: transparent;
+  color: #ffead6;
+  border: 1px solid #ffc21c;
+  outline: none;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in;
+}
+#event-form .input-field select:focus {
+  border: 2px solid #f7b500;
+}
+#event-form .input-field select option {
+  background: #2A519E;
+  width: 100%;
+}
+#event-form .input-field select option:focus {
+  background: #ffc21c;
+}
+#event-form .input-field select .disabled {
+  color: gray;
+}
+
+@media (max-width: 414px) {
+  #event-form .modal-container {
+    overflow-y: scroll;
+  }
+}
+#event-form .content .form-header {
+  text-transform: uppercase;
+  color: #ffc21c;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+#event-form .content .form-desc {
+  color: #ffead6;
+  text-transform: capitalize;
+}
+@media (max-width: 414px) {
+  #event-form .content .form-desc {
+    margin-bottom: 30px;
+  }
+}
+#event-form #form-container {
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+#event-form .input-field {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 30px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+#event-form .input-field label {
+  color: #ffc21c;
+  text-transform: uppercase;
+  text-align: left;
+  width: 100%;
+}
+#event-form .input-field input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ffc21c;
+  background: transparent;
+  padding: 10px 5px;
+  width: 100%;
+  color: #ffead6;
+  font-size: 0.78em;
+  transition: all 0.3s ease-in;
+}
+#event-form .input-field input:focus {
+  border-bottom: 3px solid #f7b500;
+}
+#event-form .input-field select {
+  width: 80%;
+  background: transparent;
+  color: #ffead6;
+  border: 1px solid #ffc21c;
+  outline: none;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in;
+}
+#event-form .input-field select:focus {
+  border: 2px solid #f7b500;
+}
+#event-form .input-field select option {
+  background: #2A519E;
+  width: 100%;
+}
+#event-form .input-field select option:focus {
+  background: #ffc21c;
+}
+#event-form .input-field select .disabled {
+  color: gray;
 }
 
 .modal {
@@ -741,6 +937,7 @@ li {
 .modal .modal-container .content {
   text-align: center;
   width: 100%;
+  margin-bottom: 65px;
 }
 @media (max-width: 1024px) {
   .modal .modal-container .content {

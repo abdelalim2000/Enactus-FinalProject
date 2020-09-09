@@ -35,8 +35,6 @@ modalBTN.forEach(function (btn) {
         document.getElementById(modal).classList.add('open')
     })
 });
-
-
 /**
  * join modal start
  * */
@@ -83,6 +81,16 @@ const eventModal = document.getElementById('event-modal');
 eventModal.addEventListener('click', function (e) {
     if (e.target.classList.contains('modal')) {
         eventModal.classList.remove('open')
+    }
+});
+const eventCTA = document.querySelector('.form-cta');
+eventCTA.addEventListener('click', function () {
+    eventModal.classList.remove('open')
+});
+const eventForm = document.getElementById('event-form');
+eventForm.addEventListener('click', function (e) {
+    if (e.target.classList.contains('modal')) {
+        eventForm.classList.remove('open')
     }
 });
 /**

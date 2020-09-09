@@ -2,6 +2,8 @@
 @import "modals/app.modal";
 @import "modals/board-modal";
 @import "modals/event-modal";
+@import "modals/event-form-modal";
+@import "modals/event-form-modal";
 
 .modal {
   width: 100vw;
@@ -28,6 +30,7 @@
     .content {
       text-align: center;
       width: 100%;
+      margin-bottom: 65px;
 
       @include tablet {
         width: 80%;
