@@ -641,6 +641,81 @@ li {
   text-align: center;
 }
 
+#event-modal #event-container {
+  width: 90%;
+  margin: 3em auto;
+  display: grid;
+  place-items: center;
+}
+#event-modal #event-container .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+#event-modal #event-container .content .event-name {
+  color: #ffc21c;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+#event-modal #event-container .content .event-desc {
+  color: #ffead6;
+  font-size: 0.86em;
+  letter-spacing: 0.5px;
+}
+#event-modal #event-container .wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  place-items: center;
+  grid-gap: 25px;
+}
+#event-modal #event-container .wrapper .left .event-body {
+  color: #ffead6;
+  font-size: 0.74em;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+}
+#event-modal #event-container .wrapper .left .event-ticket {
+  color: #ffc21c;
+  font-size: 0.74em;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+#event-modal #event-container .wrapper .left .event-contact {
+  font-size: 0.74em;
+  color: #ffead6;
+  letter-spacing: 1px;
+}
+#event-modal #event-container .wrapper .left .event-contact .first-num, #event-modal #event-container .wrapper .left .event-contact .second-num, #event-modal #event-container .wrapper .left .event-contact .third-num {
+  color: #ffc21c;
+}
+#event-modal #event-container .wrapper .right .price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 0.86em;
+  color: #ffc21c;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#event-modal #event-container .wrapper .right .conditional-payment {
+  font-size: 0.74em;
+  color: #ffc21c;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+#event-modal #form-container {
+  display: grid;
+  place-items: center;
+}
+
 .modal {
   width: 100vw;
   height: 100vh;
