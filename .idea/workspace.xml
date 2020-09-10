@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab04924b-e668-458c-a7c1-ed56937a33d3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1h5taWVkblv5gEbuljnmPoBt97j" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/asset/img" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\FiRe FaLcON\WebstormProjects\Enactus-NCA\asset\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\FiRe FaLcON\WebstormProjects\Enactus-NCA" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab04924b-e668-458c-a7c1-ed56937a33d3" name="Default Changelist" comment="" />
+      <created>1599312846375</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599312846375</updated>
+      <workItem from="1599312857453" duration="16769000" />
+      <workItem from="1599564452108" duration="23667000" />
+      <workItem from="1599600649301" duration="378000" />
+      <workItem from="1599601133179" duration="86000" />
+      <workItem from="1599609421499" duration="3752000" />
+      <workItem from="1599660228396" duration="3973000" />
+      <workItem from="1599678378251" duration="7936000" />
+      <workItem from="1599686901495" duration="8271000" />
+      <workItem from="1599758749002" duration="8168000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="410" y="212" key="#SCSS_Lint" timestamp="1599313797083">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="410" y="212" key="#SCSS_Lint/0.0.1366.738@0.0.1366.738" timestamp="1599313797083" />
+    <state x="448" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599694996103">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="448" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1599694996103" />
+    <state x="462" y="75" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1599313013700">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="462" y="75" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.738@0.0.1366.738" timestamp="1599313013700" />
+    <state x="413" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599678793441">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1599678793441" />
+    <state x="318" y="65" width="729" height="673" key="EditFileWatcherDialog" timestamp="1599574602796">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="318" y="65" width="729" height="673" key="EditFileWatcherDialog/0.0.1366.738@0.0.1366.738" timestamp="1599574602796" />
+    <state x="184" y="12" key="SettingsEditor" timestamp="1599574650239">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="12" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1599574650239" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1599685588883">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1599685588883" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1599316981590">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1599316981590" />
+  </component>
+</project>
